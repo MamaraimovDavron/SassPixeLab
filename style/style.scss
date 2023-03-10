@@ -1,0 +1,142 @@
+$primaryColor:#FF6600;
+$secondaryColor:#0B1B35;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 130px 0 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    figure{
+        img{
+            width: 240px;
+            height: 49px;
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Century Gothic';
+        gap: 40px;
+
+        ul li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-weight: 800;
+                color: $secondaryColor;
+            }
+        }
+    }
+
+    .login{
+        display: flex;
+        gap: 22px;
+        font-family: 'Century Gothic';
+
+        ul li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: $secondaryColor;
+                font-weight: bold;
+            }
+
+            .orange{
+                color: white;
+                background-color: $primaryColor;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 28px;
+                padding: 16px 32px;
+                border-radius: 16px;
+            }
+        }
+    }
+}
+
+.top-box-second{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+    .top-box-second-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+
+        h1{
+            width: 653px;
+            height: 260px;
+            font-style: normal;
+            font-weight: 850;
+            font-size: 70px;
+            line-height: 81px;
+            color: $secondaryColor;
+            font-family: "Century Gothic";
+        }
+        p{
+            width: 555px;
+            height: 62px;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 28px;
+            font-family: "Century Gothic";
+            color: $secondaryColor;
+            margin-top: 30px;
+        }
+
+        button{
+            background-color: $primaryColor;
+            border-radius: 10px;
+            width: 162px;
+            height: 49px;
+            border: none;
+            font-family: "Century Gothic";
+            color: white;   
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 50px;
+        }
+    }
+
+    .top-box-second-two{
+        width: 606px;
+        height: 618.09px;
+
+        .circle{
+            width: 480px;
+            height: 480px;
+            border-radius: 50%;
+            position: absolute;
+            top: 220px;
+            right: 300px;
+            box-shadow: 0px 0px 10px grey;
+            z-index: -1;
+        }
+    }
+}
