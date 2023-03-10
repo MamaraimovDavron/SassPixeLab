@@ -61,6 +61,13 @@ header .login ul li .orange {
   line-height: 28px;
   padding: 16px 32px;
   border-radius: 16px;
+  border: 1px solid white;
+}
+header .login ul li .orange:hover {
+  background-color: white;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+  transition: 0.5s;
 }
 
 .top-box-second {
@@ -110,6 +117,12 @@ header .login ul li .orange {
   line-height: 28px;
   margin-top: 50px;
 }
+.top-box-second .top-box-second-one button:hover {
+  background-color: white;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+  transition: 0.5s;
+}
 .top-box-second .top-box-second-two {
   width: 606px;
   height: 618.09px;
@@ -123,4 +136,82 @@ header .login ul li .orange {
   right: 300px;
   box-shadow: 0px 0px 10px grey;
   z-index: -1;
+}
+
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 135px 160px;
+}
+.middle-box h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 28px;
+  text-align: center;
+  color: #0B1B35;
+  margin-bottom: 100px;
+}
+.middle-box .middle-box-inside-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.middle-box .middle-box-inside-main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 352px;
+  height: 508px;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 28px;
+}
+.middle-box .middle-box-inside-main div figure {
+  padding: 20px;
+}
+.middle-box .middle-box-inside-main div h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  /* identical to box height, or 79% */
+  text-align: center;
+  color: #000000;
+}
+.middle-box .middle-box-inside-main div p {
+  width: 270px;
+  height: 187px;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin-top: -60px;
+}
+.middle-box .middle-box-inside-main div a {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+  color: #FFFFFF;
+  width: 162px;
+  height: 49px;
+  background: #FF6600;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
