@@ -214,4 +214,93 @@ header .login ul li .orange:hover {
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 500px;
+}
+.footer-box h5 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 204% */
+  text-align: center;
+  letter-spacing: 0.45em;
+  color: #8A898E;
+}
+.footer-box h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 28px;
+  text-align: center;
+  color: #0B1B35;
+}
+.footer-box .footer-box-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.footer-box .footer-box-inside .img-box {
+  margin-top: 30px;
+  width: 370px;
+  mix-blend-mode: normal;
+  /* Colors / Grey */
+  border: 2px solid #EBEAED;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-box .footer-box-inside .img-box figure img {
+  margin-top: 40px;
+  width: 120px;
+  height: 120px;
+}
+.footer-box .footer-box-inside .img-box h3 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #1E0E62;
+}
+.footer-box .footer-box-inside .img-box h2 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* Colors / Text */
+  color: rgba(21, 20, 57, 0.4);
+}
+.footer-box .footer-box-inside .img-box .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  mix-blend-mode: normal;
+  border: 1px solid #EBEAED;
+  width: 50%;
+  padding: 40px 50px;
+  justify-content: center;
+}
+.footer-box .footer-box-inside .img-box .icons img {
+  mix-blend-mode: normal;
 }/*# sourceMappingURL=style.css.map */
